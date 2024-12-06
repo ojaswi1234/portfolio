@@ -44,7 +44,6 @@ export default function Home() {
 
     gsap.to("#box1 h3", {
       transform:"translateX(-110%)",
-      textShadow: "10px 0 50px white",
       stagger: 1, 
       scrollTrigger: {
         trigger: "#box1",
@@ -91,7 +90,7 @@ export default function Home() {
           ))}
         </div>
         <div className="w-screen h-fit flex justify-end mr-24 gap-4 font-merienda">
-          {["home", "about", "contact"].map((item, index) => (
+          {["home", "My skills", "contact"].map((item, index) => (
             <button
               ref={(el) => (gsapref.current[index] = el)}
               key={index}
@@ -126,15 +125,15 @@ export default function Home() {
         <p className="text-3xl mt-24 font-merienda" id="intro3">And Yeah,  Nice TO Meet You !</p>
       </div>
       <div className="w-screen h-[500px]  flex flex-row justify-start item-center overflow-hidden " id="box1">
-        <h3  className="text-[400px] w-fit h-fit  text-center bg-clip-text text-transparent font-serif whitespace-nowrap  bg-gradient-to-r from-blue-600 to-green-600 ">
-        WELCOME TO MY PORTFOLIO
+        <h3  className="text-[400px] w-fit h-fit  text-center bg-clip-text text-transparent font-serif whitespace-nowrap  bg-[url('/aerial-view-rolling-snow-mountain-mountains-landscape-skyline-chinese-ink-painting-style_476006-5235.jpg')]   bg-center">
+        𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝓣𝓞 𝓜𝓨 𝓟𝓞𝓡𝓣𝓕𝓞𝓛𝓘𝓞
         </h3>
       </div>
 
-      <div className="w-screen h-fit bg-gradient-to-tl from-indigo-900 via-violet-500 to-indigo-900 pb-10 ">
+      <div className="w-screen h-fit bg-gradient-to-tl from-indigo-950 via-slate-950 to-indigo-950 pb-10 ">
         <h1 className="text-3xl translate-x-24 translate-y-24 font-merienda">My Skills: </h1>
        <h2 className="text-yellow-300 translate-x-24 translate-y-32 font-bold text-8xl transition-transform duration-500 hover:scale-110">Frontend</h2>
-        <div className="w-screen h-fit grid grid-cols-3   gap-y-5 place-items-center justify-items-center mt-44 text-black">
+        <div className="w-screen h-fit grid grid-cols-3 gap-y-5 place-items-center justify-items-center mt-44 text-black">
 
         <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-slate-400 -outline-offset-8">
           <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16  before:absolute before:w-20 before:h-20 before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
