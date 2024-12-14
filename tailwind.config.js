@@ -13,6 +13,8 @@ module.exports = {
       },
       fontFamily: {
         merienda: ['"Merienda"', 'cursive'],
+        n: ['Impact', 'fantasy'],
+        m:['Jazz LET', 'fantasy'],
       },
     },
   },
