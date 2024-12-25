@@ -16,6 +16,9 @@ module.exports = {
         n: ['Impact', 'fantasy'],
         m:['Jazz LET', 'fantasy'],
       },
+      boxShadow: {
+        a: ['0 0 44px rgba(0,0,0,2)']
+      },
     },
   },
   plugins: [],
